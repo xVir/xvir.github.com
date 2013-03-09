@@ -1,88 +1,38 @@
 <html>
 <head>
   <title>Personal homepage title</title>
+
+  <link rel="stylesheet" type="text/css"
+  href="style/responsive-gs-12col.css" /> 
+
 </head>
+
+
+
 <body>
 
-<header>
-  <hgroup>
-    <h1>Personal homepage</h1>
-    <h2>This is header</h2>
-  </hgroup>
-</header>
-
-<nav>
-  <h2>Contents</h2>
-    <ul>
-      <li><a href="#Intro">Introduction</a></li>
-      <li><a href="#History">History</a>
-            
-    </ul>
-</nav>
-
-<article>
-
-
-
-  <section id="Intro">
-    <h2>Introduction</h2>
-    This is introductionn
-  </section>
-
-<img src="img/avatar_square_192.png" />
-
-  <section id="History">
-    <h2>History</h2>
-    This is history
-  </section>
-  
-  <section id="example1">
-    <pre><code>
-    // отформатировано с помощью pre и code
-    class helloworld {
-      public static void main(string[] args) {
-        system.out.println("hello world!");
-      }
-    }
-    </code></pre>
-    
-    <pre><tt>
-    // отформатировано с помощью pre и tt
-    class helloworld {
-      public static void main(string[] args) {
-        system.out.println("hello world!");
-      }
-    }
-    </tt></pre>
-
-<img src="img/ScreenClip.png" />
-
-    
-    <code>
-    // отформатировано с помощью code
-    class helloworld {
-      public static void main(string[] args) {
-        system.out.println("hello world!");
-      }
-    }
-    </code>
-  </section>
-  
-  <section id="example2">
-    <p>
-    дюжина означает 
-    <del>двадцать</del> 
-    <ins>двенадцать</ins> 
-    частей
-    </p>
-  </section>
-  
-</article>
-
-<footer>
-  <h3>2013</h3>
-</footer>
-
+  <div id="page_wrap" class="container row">
+    <header class="row">
+      <hgroup>
+        <h1 class="col span_4">Site Title</h1>
+        <h2 class="col span_8">Site Description</h2>
+      </hgroup>
+      <nav id="global_nav" class="row">
+        Insert global nav here.
+      </nav>
+    </header>
+    <section id="content_wrap" class="row">
+      <article class="col span_8 clr">
+        Insert page content here.
+      </article>
+      <sidebar class="col span_4 clr">
+        Insert sidebar stuff here.
+      </sidebar>
+    </section><!-- content_wrap -->
+    <footer class="row">
+      Insert footer stuff here.
+    </footer>
+  </div><!-- page_wrap -->
 
 </body>
 </html>
