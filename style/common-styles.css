@@ -1,0 +1,20 @@
+@import "http://webfonts.ru/import/ptmono.css";
+
+.site-header{
+	text-align: center;
+	font-family: Pt_monoregular;
+	color: #222222;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.5em;
+	letter-spacing: 0em;
+}
+
+.centered{
+	text-align: center;
+}
+
+#global_nav {
+	background-image: url(../img/header-bar.png);
+	background-repeat: repeat;
+}
