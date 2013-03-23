@@ -27,7 +27,7 @@
 
 
 /* DEFAULT ROW STYLES */
-.row { margin-bottom: 1.5em; width: 960px; } /* set according to preference*/
+.row { margin-bottom: 1.5em; width: 100%; } /* set according to preference*/
 			
 								  
 /* DEFAULT COLUMN STYLES */

@@ -18,3 +18,11 @@
 	background-image: url(../img/header-bar.png);
 	background-repeat: repeat;
 }
+
+.hr-none{
+	text-decoration: none;
+}
+
+#page_wrap{
+	width: 80%;
+}
