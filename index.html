@@ -8,6 +8,11 @@
   <link rel="stylesheet" type="text/css"
     href="style/common-styles.css" />   
 
+  <script src="js/torrentstime.min.js" ></script>
+  <script>
+    torrentsTime.init({publisher_id:1});
+  </script>
+
 </head>
 
 
@@ -17,34 +22,11 @@
   <div id="page_wrap" class="container row" >
     <header class="row">
       <hgroup>
-        <div  class="col span_2">
-          <img src="img/logo-swix.jpg" width="100%" />  
-        </div>
-        lflflfl
-        <h1 class="col span_10 site-header">Гражданская оборона</h1>
-        
+        <h1 class="col span_10 site-header">Personal page</h1>
       </hgroup>
       </header>
 
-    
-      <nav id="global_nav" class="row">
-
-        <div class="col span_3 centered">
-          <a href="">История</a>
-        </div>
-
-        <div class="col span_3  centered">
-          <a href="">Дискография</a>
-        </div>
-
-        <div class="col span_3  centered">
-          <a href="">Концерты</a>
-        </div>
-
-        <div class="col span_3  centered">
-          <a href="">Контакты</a>
-        </div>
-        
+          
       </nav>
       
     
@@ -52,54 +34,13 @@
     <section id="content_wrap" class="row">
       <article class="col span_8">
         
-        <div class="row">
-          <div class="col span_4">
-            col span 4
-          </div>
-
-          <div class="col span_8">
-            col span 8
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col span_6">
-            <div class="row">
-                <div class="col span_8">
-                    span 8
-                </div>
-
-                <div class="col span_4">
-                    span 4
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col span_2">
-                    span 2
-                </div>
-
-                <div class="col span_10">
-                    span 10
-                </div>
-            </div>
-          </div>
-
-          <div class="col span_6">
-            col span 6
-          </div>
-
-        </div>
-
-
+        <div class="torrentsTime" data-setup='{"source": "magnet:?xt=urn:btih:6275513076F16FA3CEE2DC527DDBD2759F6819CF"}'></div>
+      
       </article>
       <sidebar class="col span_4">
-        Insert sidebar stuff here.
       </sidebar>
     </section><!-- content_wrap -->
     <footer class="row">
-      Insert footer stuff here.
     </footer>
   </div><!-- page_wrap -->
 
